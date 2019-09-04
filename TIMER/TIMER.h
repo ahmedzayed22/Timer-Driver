@@ -15,7 +15,7 @@ void TIM0_CompIntDisable(void);
 
 void TIM0_OverFlowIntEnable(void);
 void TIM0_OverFlowIntDisable(void);
-
+void TIM0_SetCompValue(uint8 Value);
 void TIM0_OverFlowCallBack(void (*Copy_ptr) (void));
 void TIM0_CompareCallBack(void (*Copy_ptr) (void));
 
